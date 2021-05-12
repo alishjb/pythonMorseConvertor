@@ -6,7 +6,7 @@ def noghte():
 def khat():
     winsound.Beep(1000,1500)
     print('-')
-text=input("Vared Konid : ").lower()
+text=input("Enter Word or number : ").lower()
 text_list=list(text)
 for i in text_list:
     if i == 'a':
@@ -254,6 +254,6 @@ for i in text_list:
         print(',')
         time.sleep(1)
     else:
-        print('Voroodi eshtebah ast - bayad bein 1-9 va a-z bashad')
+        print('Wrong Input - Please Enter 1-9 and a-z ')
 
 
